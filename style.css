@@ -131,7 +131,7 @@ nav {
   height: 100%;
 }
 
-.calc-left {
+.calc-left, .calc-right{
   display: flex;
   flex-direction: column;
   width: 50%;
@@ -146,20 +146,7 @@ label {
   text-align: center;
 }
 
-.calc-right {
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-  height: 100%;
-  padding: 15px;
-}
-
-.starting-price {
-  position: relative;
-  margin: auto;
-}
-
-.contribute {
+.starting-price, .contribute {
   position: relative;
   margin: auto;
 }
@@ -202,13 +189,10 @@ option {
   text-align: center;
 }
 
-#inputs-startPrice {
+#inputs-startPrice, #inputs-returnRate, #inputs-addContribute {
   padding: 0 10px 0 25px;
 }
 
-#inputs-addContribute {
-  padding: 0 10px 0 25px;
-}
 
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {

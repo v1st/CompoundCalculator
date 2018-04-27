@@ -29,6 +29,7 @@ function changePrice() {
   if (c.value === "") {
     c.value = 0;
   }
+
   // Calculate balance total with no interest
   if (r.value === "" || r.value === 0) {
     // Calculate compound interest for principal amount
